@@ -25,7 +25,13 @@ class SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.black,
-      body: Center(),
+      body: Center(
+        child: Image.asset(
+          'assets/logo-armandos.png',
+          width: 390,
+          height: 347,
+        ),
+      ),
     );
   }
 }
